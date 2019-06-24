@@ -1,10 +1,8 @@
-# WebsocketAPI.Python.PostingToTREP
-
 # Contributing Data using the Websocket API
 
 > *"I don't want to learn an API, I just want to publish some data to Refinitiv"*
 
-During my time on client site, I often come across a class of developer who has no need to consume Refinitiv data. They want to contribute a set of values to a RIC (instrument name/symbol) - either for internal or external consumption by other users - but don't want to learn an API in order to contribute the data.
+During my time on client site, I often come across a class of developer who has no need to consume Refinitiv data. They are the owners of some internally generated real-time data and they want to share that data - either for internal or external consumption by other users - but don't want to learn an API in order to share the data.
 
 If you are one of these developers or just want to learn about contributing data to Refinitiv, carry on reading....
 
@@ -17,7 +15,7 @@ If it's for internal consumption only, the values will stored in a internal real
 
 If it's for external consumption, the TREP system will forward the value to a contribution engine which will take care of forwarding the value to Refinitiv, who will do the necessary to publish the price on their Elektron real-time feed. External users of Elektron can then consume the data by requesting the relevant RIC codes.
 
-Note that I used the word '*publish*' in the opening line, but then use the term contribute thereafter. This is because many developers talk about publishing when often mean contributing. In the TREP world, '*publishing*' means something different which is outside the scope of this guide. 
+I used the word '*publish*' in the opening line, but then use the term contribute thereafter. This is because many developers talk about publishing when they mean contribute. In the TREP world, '*publishing*' means something different which is outside the scope of this guide. 
 
 ## Posting (or Inserting) data
 The programmatic functionality used for contributing data is referred to as ***Posting*** - and was also referred to as ***Inserting*** with our legacy APIs.
@@ -431,6 +429,5 @@ That concludes this guide - to summarise:
 
 <a href="https://developers.refinitiv.com/elektron/websocket-api/learning?content=63483&type=learning_material_item" target="_blank">Websocket API tutorials</a>  
 <a href="https://developers.refinitiv.com/elektron/websocket-api/learning?content=63573&type=learning_material_item" target="_blank">Contributing Data to TREP tutorial</a> - which include **On-Stream** Posting.
-
 
 
