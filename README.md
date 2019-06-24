@@ -396,9 +396,9 @@ As this is just an example, the rest of the \__main__ method simply sends Update
 
 ### Post a Refresh or an Update?
 
-In the example above I initially posted a Refresh, follows by Updates at time intervals – purely for demonstration purposes. However, your choice of which to use will depend on your requirements:
+In the example above I initially posted a Refresh, followed by Updates at timed intervals – purely for demonstration purposes. However, your choice of which to use will depend on your requirements:
 
-* If you want to create a new item in the cache service you can Post a Refresh payload  
+* If you want to create a new item in an internal cache service you can Post a Refresh payload  
 * To add or remove the actual Fields contained within an item you would Post a Refresh with the revised Field list  
 * If you experienced some temporary data issue which is now resolved and want to force consumers to overwrite any locally cached fields, send a Refresh. This ensures any existing consumers of your data get a clean set of values for all the fields  
 * To change values for one or more fields of an existing item you can Post an Update payload  
