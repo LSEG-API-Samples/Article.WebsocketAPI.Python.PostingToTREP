@@ -38,7 +38,7 @@ Until recently, if you wanted to perform a Post (or an Insert), you would have t
  In order to work through this guide and successfully post some data to either Refinitiv or your internal cache, you will need the following on your PC:
   * Python installation - I have tested my code below with Python v3.7  
   * The 'websocket-client' Python module installed
-  * Download of the example source code attached to this article (link at the end of the article)
+  * Download of the example source code attached to this article
   
  You will also need to obtain the following from your internal Market Data team:
   * Access to TREP a system with a v3.2.1 or higher version of the ADS component (the server you will connect to)
