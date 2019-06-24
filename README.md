@@ -428,6 +428,6 @@ That concludes this guide - to summarise:
 ### References
 
 <a href="https://developers.refinitiv.com/elektron/websocket-api/learning?content=63483&type=learning_material_item" target="_blank">Websocket API tutorials</a>  
-<a href="https://developers.refinitiv.com/elektron/websocket-api/learning?content=63573&type=learning_material_item" target="_blank">Contributing Data to TREP tutorial</a> - which include **On-Stream** Posting.
+<a href="https://developers.refinitiv.com/elektron/websocket-api/learning?content=63573&type=learning_material_item" target="_blank">Contributing Data to TREP tutorial</a> - which includes **On-Stream** Posting.
 
 
