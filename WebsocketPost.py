@@ -9,7 +9,7 @@ Created on Thu May 23 15:40:42 2019
 #|            This source code is provided under the Apache 2.0 license      --
 #|  and is provided AS IS with no warranty or guarantee of fit for purpose.  --
 #|                See the project's LICENSE.md for details.                  --
-#|           Copyright Thomson Reuters 2017. All rights reserved.            --
+#|           Copyright Refinitiv 2021. All rights reserved.            --
 #|-----------------------------------------------------------------------------
 
 
